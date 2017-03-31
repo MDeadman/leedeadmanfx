@@ -439,6 +439,7 @@ body {
 
     #fullImage {
         max-width: calc(100% - 100px);
+        max-height: 80%;
     }
 
     #descArea h1 {
