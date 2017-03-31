@@ -303,9 +303,7 @@ body {
     align-items: center;
 }
 
-#imgLeft:hover {
-    background-color: #494949;
-}
+
 
 #imgRight {
     position: fixed;
@@ -322,9 +320,7 @@ body {
     align-items: center;
 }
 
-#imgRight:hover {
-    background-color: #494949;
-}
+
 
 #imageContent {
     position: fixed;
@@ -401,6 +397,17 @@ body {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@media only screen and (min-device-width: 480px) {
+    #imgLeft:hover {
+        background-color: #494949;
+    }
+    #imgRight:hover {
+        background-color: #494949;
+    }
+}
+
 
 @media only screen and (max-device-width: 480px) {
     #imgLeft {
