@@ -324,3 +324,23 @@ body {
 #about p{
     font-size: 20px;
 }
+
+/*Contact Section  --------------------------------------------------------------------------------------*/
+
+#contact {
+    width: 100%;
+    max-width: 1500px;
+    font-family: DinAlt;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#contact h1{
+    color: #28B2A4;
+    font-size: 45px;
+}
+
+#contact p{
+    font-size: 20px;
+}
