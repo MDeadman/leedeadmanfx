@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lee Deadman FX</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
 
+
+
+
+    <div id="fullPageWrapper">
+        <div id="topArea"></div>
+        <div id="titleArea">
+            <div id="title">
+                <h1>LEE</h1>
+                <h2>DEADMAN</h2>       
+            </div>
+            <div id="selectionBar"></div>
+            <div id="titleHider"></div>
+            <div id="menu">
+                <div id="aboutMenu">
+                    <p>ABOUT</p>
+                    <div class="menuBar"></div>
+                </div>
+                <div id="portfolioMenu">
+                    <p>PORTFOLIO</p>
+                    <div class="menuBar"></div>
+                </div>
+                <div id="contactMenu">
+                    <p>CONTACT</p>
+                    <div class="menuBar"></div>
+                </div>
+            </div>
+        </div>
+        <div id="contentArea">
+            <div class="free-wall" id="grid"></div>
+            <div id="about" style="display: none">
+                <h1>ABOUT</h1>
+                <p>
+                    I am a special effects artist based in Toronto, ON. 
+                    I graduated with honors from Sheridan College's Advanced Special Effects Makeup, Prosthetics and Props program in 2016. 
+                    After graduating from the college's Visual and Creative Arts program in 2015.
+                    I first decided I wanted to create and bring characters to life through cosplaying, 
+                    creating and wearing costumes of characters from popular media, where I discovered a love for costuming and propmaking. 
+                </p>
+            </div>
+            <div id="contact" style="display: none">
+                <h1>CONTACT</h1>
+                <p>
+                    lee.deadman@gmail.com
+                </p>
+            </div>
+        </div>
+
+        <div id="imageOverlay" style="display: none;">
+            <div id="imgLeft"><</div>
+            <div id="imageContent">
+                <div id="imageArea">
+                    <img id="fullImage"/>
+                    <div id="descArea">
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div id="imageClose">X</div>
+            </div>
+            <div id="imgRight">></div>
+        </div>
+    </div>
+</body>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="freewall.js"></script>
+<script type="text/javascript" src="data.js"></script>
+<script src="main.js"></script>
+</html>
