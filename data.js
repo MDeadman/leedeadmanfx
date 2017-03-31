@@ -86,14 +86,14 @@ var photoData = [
     {
         title: "Silicone Wound",
         description: "Silicone transfer. Sculpted, molded, cast and applied.",
-        date: "",
+        date: "April 2016",
         imgUrl: "./img/armCut.jpg",
         classes: "h1 w1",
     },
     {
         title: "Baldcap Application",
         description: "For film From Me To You, Assisted by James Patterson.",
-        date: "",
+        date: "November 2015",
         imgUrl: "./img/face.jpg",
         classes: "h2 w2",
     },

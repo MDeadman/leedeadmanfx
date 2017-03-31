@@ -4,11 +4,11 @@ let currentObj = 0;
 let currentTab = 'portfolio';
 
 //initialisation
-window.addEventListener("load", function(event) {
+window.addEventListener("DOMContentLoaded", function(event) {
     var title = document.getElementById("title");
     var lee = document.querySelector("#title > h1");
     Object.assign(title.style, {transform: "translate(0px, 0px)"});
-    // Object.assign(lee.style, {marginBottom: "10px"}); //this line motherfucking breaks chrome FUCKIN HOW
+    Object.assign(lee.style, {marginBottom: "10px"}); //this line motherfucking breaks chrome FUCKIN HOW
 });
 
 //create grid
@@ -55,6 +55,9 @@ function showImage(photoObj) {
 
   const title = document.querySelector('#descArea > h1');
   title.textContent = photoObj.title;
+
+  const date = document.querySelector('#descArea > h3');
+  date.textContent = photoObj.date;
 
   const desc = document.querySelector('#descArea > p');
   desc.textContent = photoObj.description;
