@@ -481,6 +481,10 @@ body {
     font-family: DinAlt;
 }
 
+.about-left {
+    width: 50%;
+}
+
 #about h1{
     color: #28B2A4;
     font-size: 45px;
@@ -508,9 +512,21 @@ body {
     font-family: DinAlt;
 }
 
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rotateImg {
+    image-orientation: 0deg;
+}
+
+
 #contact h1{
     color: #28B2A4;
     font-size: 45px;
+    margin: 0;
 }
 
 #contact p{

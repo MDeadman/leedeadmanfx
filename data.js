@@ -28,6 +28,13 @@ var photoData = [
         classes: "h2 w1",
     },
     {
+        title: "Burn Wound",
+        description: "For film Here and Now.",
+        date: "October 2017",
+        imgUrl: "./img/burnFace1.jpg",
+        classes: "h2 w2 rotateImg",
+    },
+    {
         title: "Bunny Puppet",
         description: "Original design.",
         date: "Febuary 2016",
@@ -40,6 +47,13 @@ var photoData = [
         date: "August 2016",
         imgUrl: "./img/alienDinosaur.jpg",
         classes: "h2 w2",
+    },
+    {
+        title: "Fox Mask",
+        description: "Resin mask. Designed from Persona 5.",
+        date: "October 2017",
+        imgUrl: "./img/foxMask.jpg",
+        classes: "h2 w2"
     },
     {
         title: "Joffrey Costume",
@@ -56,6 +70,13 @@ var photoData = [
         classes: "h1 w3",
     },
     {
+        title: "Ghoul Character",
+        description: "For interactive film for Blood and Snow film Festival.",
+        date: "October 2017",
+        imgUrl: "./img/ghostGuy.jpg",
+        classes: "h2 w2",
+    },
+    {
         title: "Anders Costume",
         description: "Costume design from of character Anders from Dragon Age 2",
         date: "May 2015",
@@ -68,6 +89,13 @@ var photoData = [
         date: "March 2016",
         imgUrl: "./img/finger.jpg",
         classes: "h1 w1",
+    },
+    {
+        title: "Burn Wound",
+        description: "For film Here and Now.",
+        date: "October 2017",
+        imgUrl: "./img/burnFace2.jpg",
+        classes: "h2 w2 rotateImg",
     },
     {
         title: "Bite Wound",
