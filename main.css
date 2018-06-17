@@ -519,7 +519,7 @@ body {
 }
 
 .rotateImg {
-    image-orientation: 0deg;
+    image-orientation: 90deg;
 }
 
 
