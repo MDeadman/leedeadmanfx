@@ -541,5 +541,15 @@ body {
     #contact p{
         font-size: 40px;
     }
+}
 
+.insta-link {
+    background-image: url("./img/insta.png");
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+}
+
+.insta-link:hover {
+    filter: brightness(300%);
 }
