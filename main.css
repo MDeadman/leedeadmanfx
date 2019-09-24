@@ -501,12 +501,42 @@ body {
 
 #about {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1300px;
     font-family: DinAlt;
 }
 
+
+.about {
+    width: 100%;
+    display: flex;
+}
+
 .about-left {
-    width: 50%;
+    width: 48%;
+}
+
+.about-right {
+    width: 48%;
+    padding: 100px 0 0 50px;
+}
+
+.about-right img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        display: inherit;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+    
+    .about-right {
+        width: calc(100% - 80px);
+        padding: 40px;
+    }
 }
 
 #about h1{

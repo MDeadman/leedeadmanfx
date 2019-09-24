@@ -102,7 +102,7 @@ var photoData = [
         description: "Worbla’s Finest Art and EVA foam. Original Design",
         date: "April 2016",
         imgUrl: "./img/fishSword.jpg",
-        classes: "h1 w3",
+        classes: "h2 w6",
     },
     {
         title: "Ghoul Character",
@@ -137,21 +137,21 @@ var photoData = [
         description: "Pros-Aide Transfer. Sculpted, molded, cast and applied.",
         date: "April 2016",
         imgUrl: "./img/armBite.jpg",
-        classes: "h1 w1",
+        classes: "h2 w2",
     },
     {
         title: "Gelatin Wound",
         description: "Sculpted, molded, cast and applied.",
         date: "November 2015",
         imgUrl: "./img/armWound.jpg",
-        classes: "h1 w1",
+        classes: "h2 w2",
     },
     {
         title: "Silicone Wound",
         description: "Silicone transfer. Sculpted, molded, cast and applied.",
         date: "April 2016",
         imgUrl: "./img/armCut.jpg",
-        classes: "h1 w1",
+        classes: "h2 w2",
     },
     {
         title: "Baldcap Application",
