@@ -235,7 +235,7 @@ body {
 #grid {
     /*margin: 15px;*/
     width: 100%;
-    max-width: 1500px;
+    max-width: 1300px;
     /*height: calc(90vh - 160px);*/
 }
 
@@ -248,28 +248,52 @@ body {
 }
 
 .h1 {
-    height: 200px;
+    height: 100px;
 }
 .h2 {
-    height: 400px;
+    height: 200px;
 }
 .h3 {
-    height: 600px;
+    height: 300px;
 }
 .h4 {
+    height: 400px;
+}
+.h5 {
+    height: 500px;
+}
+.h6 {
+    height: 600px;
+}
+.h7 {
+    height: 700px;
+}
+.h8 {
     height: 800px;
 }
 
 .w1 {
-    width: 200px;
+    width: 100px;
 }
 .w2 {
-    width: 400px;
+    width: 200px;
 }
 .w3 {
-    width: 600px;
+    width: 300px;
 }
 .w4 {
+    width: 400px;
+}
+.w5 {
+    width: 500px;
+}
+.w6 {
+    width: 600px;
+}
+.w7 {
+    width: 700px;
+}
+.w8 {
     width: 800px;
 }
 
